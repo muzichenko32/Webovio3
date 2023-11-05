@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+     
+}
+.container {
+    max-width: 1440px;
+    /* height: 5960; */
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: #fff
+}
+.Slider1 {
+    display: inline-block;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 17%;
+    padding-top: 20px; 
+}
+.logo2 {
+    position: absolute;
+    left: 21%;
+    padding-top: 16px;
+}
+.btn_lang {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   position: absolute; 
+   left: 82%;
+   margin-top: 20px;
+   border-radius: 999px;
+   border: 0;
+   width: 40px;
+   height: 40px;
+   background-color: #fff;   
+}
+.burger {
+    display: block;
+    align-self: center;
+    width: 18px;
+    height: 12.6px;
+    cursor: pointer; 
+    /* background-color: #000000; */
+}
+.text {
+   position: absolute;
+   margin: 160px 20px 50px 160px
+}
+.h1 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.h2 {
+    width: 616px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 74px;
+}
+.h3 {
+    width: 581px;
+    height: 55px;
+    flex-shrink: 0;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.Rectangle {
+     display: flex; 
+    align-items: baseline;
+    justify-content:space-between ;  
+    width: 1276px;
+    height: 227px;
+    border-radius: 2px;
+    background: #FFF;
+    box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    left: 17.1%;
+    top: 710px;
+    /* gap: 66px; */
+}
+.link2 {
+    color: #000;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+left: 14%;
+  
+}
+.png {
+  margin: 60px 19px 54px 40px;
+  width: 156px;
+  height: 113px;
+  
+}
+
+.k {
+/* background: darkgray; */
+position: absolute;
+width: 1100px;
+/* height: 210px; */
+}
+
